@@ -8,7 +8,8 @@ ext {
             mapStruct           : "1.5.5.Final",
             postgreSql          : "42.7.1",
             swaggerApi          : "2.3.0",
-            springContext       : "6.1.3"
+            springContext       : "6.1.3",
+            actuator            : "3.4.3"
     ]
 
     /**
@@ -29,6 +30,7 @@ ext {
             mapStruct                       : "org.mapstruct:mapstruct:$versions.mapStruct",
             mapStructProcessor              : "org.mapstruct:mapstruct-processor:$versions.mapStruct",
             swaggerApi                      : "org.springdoc:springdoc-openapi-starter-webmvc-ui:$versions.swaggerApi",
-            springContext                   : "org.springframework:spring-context:$versions.springContext"
+            springContext                   : "org.springframework:spring-context:$versions.springContext",
+            actuator                        : "org.springframework.boot:spring-boot-starter-actuator:$versions.actuator"
     ]
 }
