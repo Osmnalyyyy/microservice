@@ -1,0 +1,11 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: serviceC
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms
+    username: ms
+    password: ms
+    driver-class-name: org.postgresql.Driver

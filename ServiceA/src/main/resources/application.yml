@@ -1,0 +1,13 @@
+
+
+server:
+  port: 8090
+
+spring:
+  application:
+    name: serviceA
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms
+    username: ms
+    password: ms
+    driver-class-name: org.postgresql.Driver

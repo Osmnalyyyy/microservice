@@ -1,0 +1,7 @@
+dependencies {
+   implementation libs.postgreSql
+    implementation libs.springBootDataJpa
+    // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
+   // implementation 'org.mongodb:mongodb-driver-sync:5.3.1'
+
+}
